@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* youtube */
+.fa-youtube {
+  background: #3B5998;
+  color: white;
+}
+
+nav{
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    position: fixed;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     z-index: 10;
+}
+.logo{
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.pn{
+    color: rgb(98, 98, 219);
+}
+.menu{
+    text-align: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.897);
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.main{
+    background-image: url(image/bannerFinal.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+    display: flex;
+}
+
+.contant{
+    width: 32%;
+    padding: 110px 60px;
+    opacity: .8;
+    height: 100vh;
+    background: rgba(2, 83, 233, 0.82);
+    color: white;
+}
+.contant h2{
+        margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.167;
+    letter-spacing: 0em;
+}
+.contant h1{
+        margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.167;
+    letter-spacing: 0em;
+}
+.contant p{
+    letter-spacing: 1px;
+}
+.blank{
+    width: 40%;
+}
+.who{
+    text-align: center;
+    padding: 50px 150px;
+}
+.who h1{
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.167;
+    color: rgba(2, 83, 233, 0.82);
+}
+.who p{
+    letter-spacing: 1px;
+    text-align: left;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 20px;
+}
+
